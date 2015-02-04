@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF67C1091A805F17007CF756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67C1081A805F17007CF756 /* AppDelegate.swift */; };
+		EF67C10B1A805F17007CF756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67C10A1A805F17007CF756 /* ViewController.swift */; };
+		EF67C10E1A805F17007CF756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF67C10C1A805F17007CF756 /* Main.storyboard */; };
+		EF67C1101A805F17007CF756 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF67C10F1A805F17007CF756 /* Images.xcassets */; };
+		EF67C1131A805F17007CF756 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF67C1111A805F17007CF756 /* LaunchScreen.xib */; };
+		EF67C11F1A805F17007CF756 /* SampleDownloadTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67C11E1A805F17007CF756 /* SampleDownloadTaskTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF67C1191A805F17007CF756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF67C0FB1A805F17007CF756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF67C1021A805F17007CF756;
+			remoteInfo = SampleDownloadTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF67C1031A805F17007CF756 /* SampleDownloadTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDownloadTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF67C1071A805F17007CF756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF67C1081A805F17007CF756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF67C10A1A805F17007CF756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF67C10D1A805F17007CF756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF67C10F1A805F17007CF756 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF67C1121A805F17007CF756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF67C1181A805F17007CF756 /* SampleDownloadTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleDownloadTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF67C11D1A805F17007CF756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF67C11E1A805F17007CF756 /* SampleDownloadTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDownloadTaskTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF67C1001A805F17007CF756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF67C1151A805F17007CF756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF67C0FA1A805F17007CF756 = {
+			isa = PBXGroup;
+			children = (
+				EF67C1051A805F17007CF756 /* SampleDownloadTask */,
+				EF67C11B1A805F17007CF756 /* SampleDownloadTaskTests */,
+				EF67C1041A805F17007CF756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF67C1041A805F17007CF756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF67C1031A805F17007CF756 /* SampleDownloadTask.app */,
+				EF67C1181A805F17007CF756 /* SampleDownloadTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF67C1051A805F17007CF756 /* SampleDownloadTask */ = {
+			isa = PBXGroup;
+			children = (
+				EF67C1081A805F17007CF756 /* AppDelegate.swift */,
+				EF67C10A1A805F17007CF756 /* ViewController.swift */,
+				EF67C10C1A805F17007CF756 /* Main.storyboard */,
+				EF67C10F1A805F17007CF756 /* Images.xcassets */,
+				EF67C1111A805F17007CF756 /* LaunchScreen.xib */,
+				EF67C1061A805F17007CF756 /* Supporting Files */,
+			);
+			path = SampleDownloadTask;
+			sourceTree = "<group>";
+		};
+		EF67C1061A805F17007CF756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF67C1071A805F17007CF756 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF67C11B1A805F17007CF756 /* SampleDownloadTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF67C11E1A805F17007CF756 /* SampleDownloadTaskTests.swift */,
+				EF67C11C1A805F17007CF756 /* Supporting Files */,
+			);
+			path = SampleDownloadTaskTests;
+			sourceTree = "<group>";
+		};
+		EF67C11C1A805F17007CF756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF67C11D1A805F17007CF756 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF67C1021A805F17007CF756 /* SampleDownloadTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF67C1221A805F17007CF756 /* Build configuration list for PBXNativeTarget "SampleDownloadTask" */;
+			buildPhases = (
+				EF67C0FF1A805F17007CF756 /* Sources */,
+				EF67C1001A805F17007CF756 /* Frameworks */,
+				EF67C1011A805F17007CF756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleDownloadTask;
+			productName = SampleDownloadTask;
+			productReference = EF67C1031A805F17007CF756 /* SampleDownloadTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF67C1171A805F17007CF756 /* SampleDownloadTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF67C1251A805F17007CF756 /* Build configuration list for PBXNativeTarget "SampleDownloadTaskTests" */;
+			buildPhases = (
+				EF67C1141A805F17007CF756 /* Sources */,
+				EF67C1151A805F17007CF756 /* Frameworks */,
+				EF67C1161A805F17007CF756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF67C11A1A805F17007CF756 /* PBXTargetDependency */,
+			);
+			name = SampleDownloadTaskTests;
+			productName = SampleDownloadTaskTests;
+			productReference = EF67C1181A805F17007CF756 /* SampleDownloadTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF67C0FB1A805F17007CF756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sample;
+				TargetAttributes = {
+					EF67C1021A805F17007CF756 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF67C1171A805F17007CF756 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF67C1021A805F17007CF756;
+					};
+				};
+			};
+			buildConfigurationList = EF67C0FE1A805F17007CF756 /* Build configuration list for PBXProject "SampleDownloadTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF67C0FA1A805F17007CF756;
+			productRefGroup = EF67C1041A805F17007CF756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF67C1021A805F17007CF756 /* SampleDownloadTask */,
+				EF67C1171A805F17007CF756 /* SampleDownloadTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF67C1011A805F17007CF756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF67C10E1A805F17007CF756 /* Main.storyboard in Resources */,
+				EF67C1131A805F17007CF756 /* LaunchScreen.xib in Resources */,
+				EF67C1101A805F17007CF756 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF67C1161A805F17007CF756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF67C0FF1A805F17007CF756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF67C10B1A805F17007CF756 /* ViewController.swift in Sources */,
+				EF67C1091A805F17007CF756 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF67C1141A805F17007CF756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF67C11F1A805F17007CF756 /* SampleDownloadTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF67C11A1A805F17007CF756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF67C1021A805F17007CF756 /* SampleDownloadTask */;
+			targetProxy = EF67C1191A805F17007CF756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF67C10C1A805F17007CF756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF67C10D1A805F17007CF756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF67C1111A805F17007CF756 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF67C1121A805F17007CF756 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF67C1201A805F17007CF756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF67C1211A805F17007CF756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF67C1231A805F17007CF756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleDownloadTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF67C1241A805F17007CF756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleDownloadTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF67C1261A805F17007CF756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleDownloadTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleDownloadTask.app/SampleDownloadTask";
+			};
+			name = Debug;
+		};
+		EF67C1271A805F17007CF756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleDownloadTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleDownloadTask.app/SampleDownloadTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF67C0FE1A805F17007CF756 /* Build configuration list for PBXProject "SampleDownloadTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF67C1201A805F17007CF756 /* Debug */,
+				EF67C1211A805F17007CF756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF67C1221A805F17007CF756 /* Build configuration list for PBXNativeTarget "SampleDownloadTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF67C1231A805F17007CF756 /* Debug */,
+				EF67C1241A805F17007CF756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF67C1251A805F17007CF756 /* Build configuration list for PBXNativeTarget "SampleDownloadTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF67C1261A805F17007CF756 /* Debug */,
+				EF67C1271A805F17007CF756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF67C0FB1A805F17007CF756 /* Project object */;
+}
